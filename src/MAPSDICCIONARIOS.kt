@@ -1,5 +1,6 @@
 
 
+
 fun main(args: Array<String>){
 	diccionarios()
 	
@@ -8,9 +9,9 @@ fun main(args: Array<String>){
  Con los diccionarios podemos collecionar datos, sus caracteristicas son:
  No podemos repetir la calves
  No son ordenados
- Los datos se agurpan clave valor
+ Los datos se agrupan clave valor
  Clave todos de un tipo de datos y los datos del mismo tipo
- Las claves no puedentener el mismo valor
+ Las claves no puedentener el mismo valor, osea no podemos repetir
  */
 fun diccionarios(){
 	

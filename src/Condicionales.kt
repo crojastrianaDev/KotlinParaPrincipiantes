@@ -8,13 +8,13 @@ fun main(args: Array<String>){
  */
 
 private fun sentenciaIf(){
-	// >
-	// <
-	// >=
-	// <=
-	// ==
+	// > mayor qué
+	// < menor qué
+	// >= mayor igual que
+	// <= menor igual que
+	// == igual a
 	// != desigualdad
-	// operadores lógicos || = O && = y el No ! 
+	// operadores lógicos || = O, && = y, y el No ! 
 	
 	val myNumber = 53
 	if((myNumber < 10 && myNumber > 5) || myNumber == 23){

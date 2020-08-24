@@ -6,7 +6,7 @@ fun main(args: Array<String>){
 
 /*
  Sentencia de control llamada When el tipico switch en java
- 		*/
+ */
 
 private fun sentencia(){
 	
@@ -15,6 +15,7 @@ private fun sentencia(){
 	// cundo tenemos gran número de condiciones es mejor usar when
 	
 	when (country){
+		
 		// si tengo casos considentes
 		
 		"España","Colombia","Peru" -> {

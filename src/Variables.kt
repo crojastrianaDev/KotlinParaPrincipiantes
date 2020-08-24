@@ -28,7 +28,7 @@
 	 mySecondVariable = 2.88F
 	 println(mySecondVariable)
 	 
-	 // costantes con la palabra reservada val, ell ano varia con el triempo
+	 // costantes con la palabra reservada val, este tipo no puede mutar con el tiempo
 	 
 	 val myCostante  = "No cambio"
 	 println(myCostante)

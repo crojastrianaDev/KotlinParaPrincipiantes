@@ -7,14 +7,18 @@ fun main(args: Array<String>){
  
  SIEMPRE DEBEMOS USAR ? POR QUE EN ALGUN MOMENTO LA VARIABLE PUEDE SER NULL Y ASÍ ESTAMOS OBLIGADOS
  A VERIFICAR LA VARIABLE
+ 
  */
 fun nullSafety(){
 	
 	var myString = "Alejandro"
-	//myString = null Esto nos daria un error de compilación
+	
+	//myString = null Esto nos daria un error de compilación ya que la vartiable no puede ser nula
+	
 	println(myString)
 	
 	// Si queremos evitar esto, lo que hacemos ed definir el tipo de variable y poner ?
+	
 	var mySafety: String? = "Rojas null safety"
 	mySafety = null //ahora si puede ser null
 	println(mySafety)
@@ -35,7 +39,7 @@ fun nullSafety(){
 	//Con let podemos tener un Safe call
 	
 	mySafety?.let {
-		//este c+odigo se ejecutara solo si no es null
+		//este código se ejecutara solo si no es null
 		
 		println(it) //El it sera el valor de la variable si no es null
 		

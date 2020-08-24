@@ -29,18 +29,22 @@ private fun arreglo(){
 	println(myArray)
 	
 	//Acceso a datos del array
+	
 	println(myArray[0])
 	
 	//modificar
+	
 	myArray[5] = "Bienvenidos a Kotlin"
 	
 	println(myArray[5])
 	
-	//Borrar datps
+	//Borrar datos
+	
 	myArray.removeAt(4)
 	println(myArray)
 	
 	//recorrer mi array
+	
 	myArray.forEach{
 		println(it)
 	}
